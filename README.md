@@ -1,6 +1,11 @@
 # Автономные (standalone) компоненты
 
-[Standalone Components](https://blog.angular-university.io/angular-standalone-components/)
+## Links
+
+- [Standalone Components](https://blog.angular-university.io/angular-standalone-components/)
+- [Lazy Loading Angular Standalone Component](https://youtu.be/NFJbXP6Ci98?si=MkKwMQOhBsGO8A8V)
+- [Lazy Load Standalone Components with "loadComponent"](https://ultimatecourses.com/blog/lazy-load-standalone-components-via-load-component)
+- [Routing and Lazy Loading with Standalone Components](https://youtu.be/VzYRFLnnzkE?si=oVWnFQHFk1dyT-35)
 
 Концепция модуля в Angular казалась ненужной и немного усложняла изучение Angular новичкам с нуля.
 
@@ -21,5 +26,7 @@
 Если вам нужно использовать отдельные элементы в компонентах на основе NgModule, вы также можете это сделать. Существует полная совместимость в обоих направлениях . Давайте посмотрим, как выглядит эта совместимость.
 
 Поначалу, без автономных компонентов, отложенная загрузка осуществлялась через модули.
+
+Таким образом, благодаря автономным компонентам отложенная загрузка больше не является проблемой, теперь она стала тривиальной и ее гораздо проще использовать.
 
 

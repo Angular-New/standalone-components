@@ -1,10 +1,26 @@
 <nav class="navigation">
   <ul class="navigation-list">
     <li class="navigation-item">
-      <a class="navigation-link" routerLink="/">home</a>
+      <a
+        class="navigation-link"
+        routerLink=""
+        routerLinkActive="navigation-link-active"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >home</a>
     </li>
     <li class="navigation-item">
-      <a class="navigation-link" routerLink="/parent">parent</a>
+      <a
+        class="navigation-link"
+        routerLink="/parent"
+        routerLinkActive="navigation-link-active"
+      >parent</a>
+    </li>
+    <li class="navigation-item">
+      <a
+        class="navigation-link"
+        routerLink="/child"
+        routerLinkActive="navigation-link-active"
+      >child</a>
     </li>
   </ul>
 </nav>
