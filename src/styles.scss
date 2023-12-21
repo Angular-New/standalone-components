@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+ul, ol {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: sans-serif;
+}

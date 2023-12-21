@@ -1,0 +1,23 @@
+$base: 20px;
+
+.navigation {
+  padding: $base $base*2;
+}
+
+.navigation-list {
+  display: flex;
+}
+
+.navigation-item:not(:first-child) {
+  margin-left: $base;
+}
+
+.navigation-link {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: coral;
+
+  &:hover {
+    color: chocolate;
+  }
+}
