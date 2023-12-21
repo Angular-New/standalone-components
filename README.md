@@ -1,27 +1,21 @@
-# Standalone
+# Автономные (standalone) компоненты
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.5.
+[Standalone Components](https://blog.angular-university.io/angular-standalone-components/)
 
-## Development server
+Концепция модуля в Angular казалась ненужной и немного усложняла изучение Angular новичкам с нуля.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Когда они были впервые представлены, автономные компоненты имели тот недостаток, что вам приходилось вручную импортировать любые зависимости, необходимые компоненту, непосредственно в компоненте.
 
-## Code scaffolding
+Таким образом, как мы видели, даже основные директивы, такие как ngClass или ngStyle, приходится импортировать вручную в каждый отдельный компонент.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Итак, на короткое время мы подумали, что автономные компоненты будут громоздкими в использовании на уровне приложения из-за необходимости постоянно импортировать все, что кажется непрактичным.
 
-## Build
+Что касается проблемы импорта, в настоящее время любая IDE может автоматически импортировать все зависимости отдельного компонента благодаря языковой службе Angular.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Удаление NgModules даже не является основным преимуществом автономных компонентов и не основной причиной переноса на них установленного приложения.
 
-## Running unit tests
+На мой взгляд, основное преимущество автономных компонентов заключается в том, что с их помощью очень легко разработать полностью лениво загружаемое приложение или перенести существующее монолитное приложение и сделать его полностью лениво загружаемым.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Основное преимущество автономных компонентов заключается в том, что они упрощают разработку приложения с полной ленивой загрузкой или миграцию существующего приложения и выполнение его полной ленивой загрузки.
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
