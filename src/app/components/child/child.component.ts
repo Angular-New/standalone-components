@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { NgIf } from '@angular/common';
 
 @Component({
@@ -7,6 +7,7 @@ import { NgIf } from '@angular/common';
   imports: [NgIf],
   templateUrl: './child.component.html',
   styleUrl: './child.component.scss',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ChildComponent {
   public readonly show: boolean = true;
