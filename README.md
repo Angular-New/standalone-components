@@ -6,6 +6,7 @@
 - [Lazy Loading Angular Standalone Component](https://youtu.be/NFJbXP6Ci98?si=MkKwMQOhBsGO8A8V)
 - [Lazy Load Standalone Components with "loadComponent"](https://ultimatecourses.com/blog/lazy-load-standalone-components-via-load-component)
 - [Routing and Lazy Loading with Standalone Components](https://youtu.be/VzYRFLnnzkE?si=oVWnFQHFk1dyT-35)
+- [Angular standalone component. Private component](https://youtu.be/RaxZCMTtMfs?si=Q2OmfZlCrKp7V0u_)
 
 Концепция модуля в Angular казалась ненужной и немного усложняла изучение Angular новичкам с нуля.
 
